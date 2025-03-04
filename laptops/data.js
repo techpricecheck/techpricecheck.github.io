@@ -1,3 +1,2 @@
-let array = "sjdklfjsd";
-let t = "";
+let array = ["$", "b"];
 export default array;
