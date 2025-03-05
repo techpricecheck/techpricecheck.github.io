@@ -1,8 +1,7 @@
-<link rel="icon" type="image/x-icon" href="dollar.png">
-<title>Laptop Price Comparison Tool</title>
-<div>
-    <ul>
-        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfKoOTX2moT5BUP68RH0X8EA67gaIdzbERyxWv0bPIKWoShdQ/viewform">Submit an entry</a></li>
-        <li><a href="search.html">Search Tool</a></li>
-    </ul>
-</div>
+<title>Search the database</title>
+<p id="result"></p>
+<script src="data.js" type="module"></script>
+<script type="module">
+    import array from "./data.js";
+    document.getElementById("result").innerHTML = array[0];
+</script>
