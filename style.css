@@ -11,16 +11,16 @@ body { /* AI */
     flex-direction: column; /* AI */
 } /* AI */
 header {
-    background-color: red;
+    background-color: #800000;
     height: 10%;
 }
 main {
     flex: 1; /* AI */
 }
 footer {
-    background-color: green;
+    background-color: #008000;
     height: 20%;
-    color: red;
+    color: #800000;
 }
 img {
     margin: 10px;
@@ -35,12 +35,12 @@ img {
     top: 0%;
 }
 .about button {
-    background-color: red;
+    background-color: white;
     width: 10%;
     height: calc(100% - 40px);
     border: 5px solid green;
     margin-top: 20px;
 }
 .about button:hover {
-    background-color: white;
+    background-color: #800000;
 }
