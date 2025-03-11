@@ -1,21 +1,21 @@
 * {
     margin: 0;
-    box-sizing: border-box;
+    box-sizing: border-box; /* AI */
     font-family: 'Helvetica';
 }
-html, body {
-    height: 100%;
-}
-body {
-    display: flex;
-    flex-direction: column;
-}
+html, body { /* AI */
+    height: 100%; /* AI */
+} /* AI */
+body { /* AI */
+    display: flex; /* AI */
+    flex-direction: column; /* AI */
+} /* AI */
 header {
     background-color: red;
     height: 10%;
 }
 main {
-    flex: 1;
+    flex: 1; /* AI */
 }
 footer {
     background-color: green;
@@ -35,7 +35,7 @@ img {
     top: 0%;
 }
 .about button {
-    background-color: green;
+    background-color: red;
     width: 10%;
     height: calc(100% - 40px);
     border: 5px solid green;
