@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+header {
+    background-color: red;
+    height: 10%;
+}
+main {
+    flex: 1;
+}
+footer {
+    background-color: black;
+    height: 20%;
+    color: white;
+}
